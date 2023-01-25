@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bag 🎒</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+  <h1><a href="https://github.com/theogiovedi/bag" target="_blank">Bag 🎒</a></h1>
+
+  <div id="navbar">
+    <button title="Bag the current page" class="navbar-button" id="bag-page" name="bag-page"><i
+        class="bi bi-plus-lg"></i></button>
+    <button title="See pages in Bag" class="navbar-button" id="bag-list" name="bag-list"><i
+        class="bi bi-list"></i></button>
+    <button title="See statistics" class="navbar-button" id="bag-stats" name="bag-stats"><i class="bi bi-graph-up"></i></button>
+  </div>
+
+  <style>
+    .credits {
+      text-align: center;
+    }
+
+    .credits-text {
+      font-size: 16px;
+    }
+
+    .credits-heart {
+      margin: 2px;
+      animation: credits-heart 1.5s linear infinite;
+    }
+
+    @keyframes credits-heart {
+      0% {
+        opacity: 0.3;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0.3;
+      }
+    }
+  </style>
+  <div class="credits">
+    <p class="credits-text"> Made with <span class="credits-heart">❤️</span> by <a class="credits-link"
+        href="https://github.com/theogiovedi" target="_blank">Théo Giovedi</a></p>
+  </div>
+
+  <script src="popup.js" type="module"></script>
+
+</body>
+
+</html>

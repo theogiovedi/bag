@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #FBBB62;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.article-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.article-item {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 15px;
+}
+
+.article-info {
+    display: flex;
+    flex-flow: column;
+    width: 520px;
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+    font-size: 19px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.article-button {
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+    border-left: 0px;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.article-url {
+    font-style: italic;
+    font-size: 14px;
+}
+
+a:link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.article-read {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.article-read-border {
+    border-color: gray;
+}
+
+.center {
+    text-align: center;
+}
+
+.remove-all {
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.empty-list {
+    font-weight: bold;
+    color: black;
+    font-size: 28px;
+}
